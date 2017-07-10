@@ -23,6 +23,7 @@ print("""Menu:
 
 opcion = int(input(""))
 if opcion == 1:
+
     me = input('\x1b[0;31;40m' + "Introduce tu correo: \x1b[0m")
     contra = getpass.getpass("\x1b[0;31;40mIntroduce tu contraseña: \x1b[0m")
     archivo = open('password.txt', 'w')
